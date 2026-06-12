@@ -5,7 +5,7 @@ import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
 const stats = [
   { value: 134,   suffix: "",   label: "Routes mapped",    sublabel: "across Nairobi" },
   { value: 2400,  suffix: "+",  label: "Bus stops",        sublabel: "and counting" },
-  { value: 50000, suffix: "+",  label: "Daily riders",     sublabel: "trust Hopln" },
+  { value: 50000, suffix: "+",  label: "Daily riders",     sublabel: "trust Navigo" },
   { value: 40,    suffix: "+",  label: "SACCOs onboard",   sublabel: "growing monthly" },
 ];
 

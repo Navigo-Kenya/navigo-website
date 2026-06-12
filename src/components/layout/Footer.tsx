@@ -15,8 +15,8 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-14 flex flex-col md:flex-row items-center justify-between gap-8">
         <div className="flex flex-col items-center md:items-start gap-2">
           <div className="flex items-center gap-2">
-            <Image src="/hopln.png" alt="Hopln" width={24} height={24} className="rounded" />
-            <span className="font-semibold text-sm text-white">Hopln</span>
+            <Image src="/navigo.png" alt="Navigo" width={24} height={24} className="rounded" />
+            <span className="font-semibold text-sm text-white">Navigo</span>
           </div>
           <p className="text-xs text-(--color-on-dark-secondary)">Built in Nairobi 🇰🇪</p>
         </div>
@@ -34,7 +34,7 @@ export function Footer() {
         </nav>
 
         <p className="text-xs text-(--color-on-dark-muted)">
-          © {new Date().getFullYear()} Hopln
+          © {new Date().getFullYear()} Navigo
         </p>
       </div>
     </footer>

@@ -4,7 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "The terms and conditions governing your use of Hopln.",
+  description: "The terms and conditions governing your use of Navigo.",
 };
 
 const sections = [
@@ -14,11 +14,11 @@ const sections = [
     content: [
       {
         subtitle: "Agreement",
-        text: "By downloading, installing, or using the Hopln app or visiting hopln.app, you agree to be bound by these Terms of Service. If you do not agree, do not use the service.",
+        text: "By downloading, installing, or using the Navigo app or visiting navigo.co.ke, you agree to be bound by these Terms of Service. If you do not agree, do not use the service.",
       },
       {
         subtitle: "Age requirement",
-        text: "You must be at least 13 years old to use Hopln. If you are under 18, you confirm that you have your parent or guardian's permission to use the service.",
+        text: "You must be at least 13 years old to use Navigo. If you are under 18, you confirm that you have your parent or guardian's permission to use the service.",
       },
       {
         subtitle: "Changes to terms",
@@ -31,8 +31,8 @@ const sections = [
     title: "The service",
     content: [
       {
-        subtitle: "What Hopln provides",
-        text: "Hopln is a transit navigation app for Nairobi's matatu and bus network. We provide route planning, real-time tracking, service alerts, and community contribution tools. The service is provided 'as is' and 'as available'.",
+        subtitle: "What Navigo provides",
+        text: "Navigo is a transit navigation app for Nairobi's matatu and bus network. We provide route planning, real-time tracking, service alerts, and community contribution tools. The service is provided 'as is' and 'as available'.",
       },
       {
         subtitle: "Service availability",
@@ -40,7 +40,7 @@ const sections = [
       },
       {
         subtitle: "Transit information accuracy",
-        text: "Route, stop, and schedule data comes from open datasets and community contributions. While we work hard to keep it accurate, real-world transit conditions change. Always exercise your own judgement when travelling — Hopln is a navigation aid, not a guarantee of service.",
+        text: "Route, stop, and schedule data comes from open datasets and community contributions. While we work hard to keep it accurate, real-world transit conditions change. Always exercise your own judgement when travelling — Navigo is a navigation aid, not a guarantee of service.",
       },
       {
         subtitle: "AI route planning",
@@ -58,7 +58,7 @@ const sections = [
       },
       {
         subtitle: "Account security",
-        text: "You are responsible for all activity that occurs under your account. Notify us immediately at support@hopln.app if you suspect unauthorised access.",
+        text: "You are responsible for all activity that occurs under your account. Notify us immediately at support@navigo.co.ke if you suspect unauthorised access.",
       },
       {
         subtitle: "Termination",
@@ -72,7 +72,7 @@ const sections = [
     content: [
       {
         subtitle: "Submitting contributions",
-        text: "When you submit a delay report, stop review, route correction, or photo, you grant Hopln a non-exclusive, royalty-free, perpetual licence to use, display, and distribute that content as part of the public transit dataset.",
+        text: "When you submit a delay report, stop review, route correction, or photo, you grant Navigo a non-exclusive, royalty-free, perpetual licence to use, display, and distribute that content as part of the public transit dataset.",
       },
       {
         subtitle: "Accuracy and good faith",
@@ -98,7 +98,7 @@ const sections = [
       },
       {
         subtitle: "Operator accounts",
-        text: "If you access the Hopln Operators Console on behalf of a SACCO or transport company, you represent that you are authorised to do so and that your organisation accepts these terms.",
+        text: "If you access the Navigo Operators Console on behalf of a SACCO or transport company, you represent that you are authorised to do so and that your organisation accepts these terms.",
       },
     ],
   },
@@ -107,8 +107,8 @@ const sections = [
     title: "Intellectual property",
     content: [
       {
-        subtitle: "Hopln IP",
-        text: "The Hopln name, logo, app design, and proprietary data are owned by or licensed to Hopln. Nothing in these terms grants you a right to use our trademarks or branding.",
+        subtitle: "Navigo IP",
+        text: "The Navigo name, logo, app design, and proprietary data are owned by or licensed to Navigo. Nothing in these terms grants you a right to use our trademarks or branding.",
       },
       {
         subtitle: "Open data",
@@ -126,11 +126,11 @@ const sections = [
       },
       {
         subtitle: "Limitation of liability",
-        text: "To the maximum extent permitted by Kenyan law, Hopln shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of, or inability to use, the service — including missed journeys, late arrivals, or reliance on inaccurate route data.",
+        text: "To the maximum extent permitted by Kenyan law, Navigo shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of, or inability to use, the service — including missed journeys, late arrivals, or reliance on inaccurate route data.",
       },
       {
         subtitle: "Indemnification",
-        text: "You agree to indemnify and hold harmless Hopln and its directors, employees, and agents from any claims, losses, or damages arising out of your violation of these terms or misuse of the service.",
+        text: "You agree to indemnify and hold harmless Navigo and its directors, employees, and agents from any claims, losses, or damages arising out of your violation of these terms or misuse of the service.",
       },
     ],
   },
@@ -140,7 +140,7 @@ const sections = [
     content: [
       {
         subtitle: "External links and services",
-        text: "Hopln integrates third-party services including Mapbox (maps and routing), Google Gemini (AI), and OpenTripPlanner (transit calculations). Your use of these services is subject to their own terms of service and privacy policies. We are not responsible for third-party services.",
+        text: "Navigo integrates third-party services including Mapbox (maps and routing), Google Gemini (AI), and OpenTripPlanner (transit calculations). Your use of these services is subject to their own terms of service and privacy policies. We are not responsible for third-party services.",
       },
     ],
   },
@@ -164,11 +164,11 @@ const sections = [
     content: [
       {
         subtitle: "General enquiries",
-        text: "For questions about these terms or the service, contact us at support@hopln.app. We aim to respond within 5 business days.",
+        text: "For questions about these terms or the service, contact us at support@navigo.co.ke. We aim to respond within 5 business days.",
       },
       {
         subtitle: "Legal notices",
-        text: "Formal legal notices should be sent to legal@hopln.app.",
+        text: "Formal legal notices should be sent to legal@navigo.co.ke.",
       },
     ],
   },
@@ -184,7 +184,7 @@ export default function TermsPage() {
         <div className="max-w-3xl mx-auto px-6">
           <p className="text-xs font-semibold text-(--color-orange) uppercase tracking-widest mb-3">Legal</p>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">Terms of Service</h1>
-          <p className="mt-4 text-sm text-white/45">Last updated: June 2025 · Applies to Hopln iOS and Android apps, hopln.app, and the Operators Console</p>
+          <p className="mt-4 text-sm text-white/45">Last updated: June 2025 · Applies to Navigo iOS and Android apps, navigo.co.ke, and the Operators Console</p>
         </div>
       </div>
 
@@ -193,8 +193,8 @@ export default function TermsPage() {
 
           {/* Intro */}
           <p className="text-base text-(--color-text-secondary) leading-relaxed mb-14 pb-14 border-b border-(--color-border)">
-            These Terms of Service govern your use of Hopln — the transit navigation app, website, and operator tools.
-            Please read them carefully. We've written them in plain language; if anything is unclear, email us at support@hopln.app.
+            These Terms of Service govern your use of Navigo — the transit navigation app, website, and operator tools.
+            Please read them carefully. We've written them in plain language; if anything is unclear, email us at support@navigo.co.ke.
           </p>
 
           {/* Table of contents */}

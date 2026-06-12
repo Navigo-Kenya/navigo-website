@@ -2,10 +2,10 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://hopln.app"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://navigo.co.ke"),
   title: {
-    default: "Hopln, Navigate the city you live in",
-    template: "%s | Hopln",
+    default: "Navigo, Navigate the city you live in",
+    template: "%s | Navigo",
   },
   description:
     "Real-time matatu and bus navigation for Nairobi. Live tracking, AI-powered route planning, service alerts, built for the city you actually live in.",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    creator: "@hoplnapp",
+    creator: "@navigo_ke",
   },
   robots: { index: true, follow: true },
 };

@@ -48,7 +48,7 @@ const contributionTypes = [
 
 const howSteps = [
   { number: "01", title: "Report",  description: "Spot a problem or update? Tap to report from anywhere in the app." },
-  { number: "02", title: "Review",  description: "Community moderators and Hopln staff review for accuracy." },
+  { number: "02", title: "Review",  description: "Community moderators and Navigo staff review for accuracy." },
   { number: "03", title: "Live",    description: "Approved contributions go live for all riders within minutes." },
 ];
 
@@ -85,7 +85,7 @@ export function CommunityPage() {
               Build the map<br />with us.
             </h1>
             <p className="mt-5 text-base text-white/60 max-w-md mx-auto leading-relaxed">
-              Hopln is powered by the people who ride every day. Your local knowledge makes every journey better.
+              Navigo is powered by the people who ride every day. Your local knowledge makes every journey better.
             </p>
             <div className="mt-8">
               <CtaButton href="#download" size="lg">
@@ -211,7 +211,7 @@ export function CommunityPage() {
           <RevealWrapper>
             <h2 className="text-4xl font-bold text-white tracking-tight">Start contributing today.</h2>
             <p className="mt-3 text-sm text-white/75 leading-relaxed">
-              Download Hopln and help make Nairobi's transit network better for everyone.
+              Download Navigo and help make Nairobi's transit network better for everyone.
             </p>
             <div className="mt-8">
               <CtaButton href="#download" variant="white" size="lg">

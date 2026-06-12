@@ -32,7 +32,7 @@ const features = [
   {
     icon: BellRingIcon,
     title: "Service Alerts",
-    description: "Publish detours, reduced-service notices, and cancellations with info, warning, or critical severity. Alerts propagate instantly to riders in the Hopln app.",
+    description: "Publish detours, reduced-service notices, and cancellations with info, warning, or critical severity. Alerts propagate instantly to riders in the Navigo app.",
   },
   {
     icon: PencilRulerIcon,
@@ -103,10 +103,10 @@ export function ForOperators() {
                   Run your SACCO like a modern operator.
                 </h2>
                 <p className="mt-5 text-base sm:text-lg text-(--color-text-secondary) leading-relaxed max-w-lg">
-                  Hopln Console gives transit operators enterprise-grade dispatch, ledger, and routing tools, without the enterprise price tag.
+                  Navigo Console gives transit operators enterprise-grade dispatch, ledger, and routing tools, without the enterprise price tag.
                 </p>
                 <div className="mt-8">
-                  <CtaButton href="mailto:ops@hopln.app" size="lg" className="shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40">
+                  <CtaButton href="mailto:ops@navigo.co.ke" size="lg" className="shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40">
                     Request early access
                     <ArrowRightIcon className="size-4 ml-2" />
                   </CtaButton>
@@ -124,7 +124,7 @@ export function ForOperators() {
                 {/* Replace src with your actual thumbnail image */}
                 <img 
                   src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2070" 
-                  alt="Hopln Console Demo" 
+                  alt="Navigo Console Demo" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80"
                 />
                 

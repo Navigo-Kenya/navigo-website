@@ -8,14 +8,14 @@ const steps = [
   {
     icon: SmartphoneIcon,
     number: "01",
-    title: "Open Hopln",
+    title: "Open Navigo",
     description: "Your location is detected automatically. No typing needed, just open and go.",
   },
   {
     icon: SearchIcon,
     number: "02",
     title: "Search destination",
-    description: "Type a stage or landmark. Hopln understands how Nairobians actually talk.",
+    description: "Type a stage or landmark. Navigo understands how Nairobians actually talk.",
   },
   {
     icon: NavigationIcon,

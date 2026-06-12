@@ -44,7 +44,7 @@ export function DataCredits() {
           <RevealWrapper delay={0.1} className="lg:col-span-5 flex flex-col gap-6">
 
             <p className="text-base text-(--color-text-secondary) leading-relaxed">
-              Hopln's route network and stop data are built on the foundation laid by{" "}
+              Navigo's route network and stop data are built on the foundation laid by{" "}
               <a
                 href="https://www.digitalmatatus.com"
                 target="_blank"

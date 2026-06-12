@@ -4,7 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "How Hopln collects, uses, and protects your personal data.",
+  description: "How Navigo collects, uses, and protects your personal data.",
 };
 
 const sections = [
@@ -14,7 +14,7 @@ const sections = [
     content: [
       {
         subtitle: "Location data",
-        text: "When you use navigation features, Hopln accesses your device's GPS to calculate routes and provide turn-by-turn directions. Location is processed on-device and through our API for routing purposes only. We do not store your precise location history.",
+        text: "When you use navigation features, Navigo accesses your device's GPS to calculate routes and provide turn-by-turn directions. Location is processed on-device and through our API for routing purposes only. We do not store your precise location history.",
       },
       {
         subtitle: "Usage data",
@@ -84,7 +84,7 @@ const sections = [
       },
       {
         subtitle: "Account data",
-        text: "Your account data is retained for as long as your account is active. You may request deletion at any time by contacting privacy@hopln.app.",
+        text: "Your account data is retained for as long as your account is active. You may request deletion at any time by contacting privacy@navigo.co.ke.",
       },
       {
         subtitle: "Location data",
@@ -120,7 +120,7 @@ const sections = [
     content: [
       {
         subtitle: "Privacy queries",
-        text: "For any privacy-related questions, requests, or concerns, contact us at privacy@hopln.app. We aim to respond within 5 business days.",
+        text: "For any privacy-related questions, requests, or concerns, contact us at privacy@navigo.co.ke. We aim to respond within 5 business days.",
       },
       {
         subtitle: "Governing law",
@@ -140,7 +140,7 @@ export default function PrivacyPage() {
         <div className="max-w-3xl mx-auto px-6">
           <p className="text-xs font-semibold text-(--color-orange) uppercase tracking-widest mb-3">Legal</p>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">Privacy Policy</h1>
-          <p className="mt-4 text-sm text-white/45">Last updated: June 2025 · Applies to Hopln iOS and Android apps and hopln.app</p>
+          <p className="mt-4 text-sm text-white/45">Last updated: June 2025 · Applies to Navigo iOS and Android apps and navigo.co.ke</p>
         </div>
       </div>
 
@@ -149,7 +149,7 @@ export default function PrivacyPage() {
 
           {/* Intro */}
           <p className="text-base text-(--color-text-secondary) leading-relaxed mb-14 pb-14 border-b border-(--color-border)">
-            Hopln ("we", "our", "us") is a transit navigation app built for Nairobi's matatu and bus network.
+            Navigo ("we", "our", "us") is a transit navigation app built for Nairobi's matatu and bus network.
             This policy explains what data we collect when you use the app, how we use it, and the choices you have.
             We believe in plain language — if anything here is unclear, email us.
           </p>

@@ -31,8 +31,8 @@ export function Navbar() {
         {/* Logo */}
         <a href="/" className="flex items-center gap-2 shrink-0">
           <Image
-            src={scrolled ? "/hopln.png" : "/hopln.png"}
-            alt="Hopln"
+            src={scrolled ? "/navigo.png" : "/navigo.png"}
+            alt="Navigo"
             width={28}
             height={28}
             className="rounded"
@@ -41,7 +41,7 @@ export function Navbar() {
             "font-semibold text-sm tracking-tight transition-colors",
             scrolled ? "text-(--color-text-primary)" : "text-white",
           )}>
-            Hopln
+            Navigo
           </span>
         </a>
 
