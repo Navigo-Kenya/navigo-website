@@ -5,7 +5,7 @@ import { CommunityPage } from "@/components/sections/CommunityPage";
 
 export const metadata: Metadata = {
   title: "Community",
-  description: "Join thousands of Nairobi riders who make Hopln better every day.",
+  description: "Join thousands of Nairobi riders who make Navigo better every day.",
 };
 
 export default function Page() {
