@@ -5,6 +5,22 @@ import { Footer } from "@/components/layout/Footer";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "How Navigo collects, uses, and protects your personal data.",
+  alternates: { canonical: "https://navigo.co.ke/privacy" },
+  openGraph: {
+    title: "Privacy Policy | Navigo",
+    description: "How Navigo collects, uses, and protects your personal data.",
+    url: "https://navigo.co.ke/privacy",
+    siteName: "Navigo",
+    locale: "en_KE",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Privacy Policy | Navigo",
+    description: "How Navigo collects, uses, and protects your personal data.",
+    site: "@navigo_ke",
+    creator: "@navigo_ke",
+  },
 };
 
 const sections = [

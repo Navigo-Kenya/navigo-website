@@ -5,6 +5,22 @@ import { Footer } from "@/components/layout/Footer";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description: "The terms and conditions governing your use of Navigo.",
+  alternates: { canonical: "https://navigo.co.ke/terms" },
+  openGraph: {
+    title: "Terms of Service | Navigo",
+    description: "The terms and conditions governing your use of Navigo.",
+    url: "https://navigo.co.ke/terms",
+    siteName: "Navigo",
+    locale: "en_KE",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Terms of Service | Navigo",
+    description: "The terms and conditions governing your use of Navigo.",
+    site: "@navigo_ke",
+    creator: "@navigo_ke",
+  },
 };
 
 const sections = [
